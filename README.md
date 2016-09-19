@@ -14,6 +14,9 @@ CCS Project Template
   - [Comparison and Logical Operators](comparison-and-logical-operators)
   - [If Else Statements](#if-else)
   - [Switch](#switch)
+- [jQuery Basics](#jquery-basics)
+  - [Selectors](#selectors)
+  - [Events](#events)
 
 
 ##Data Types
@@ -49,7 +52,7 @@ Containers for storing data values
 ```javascript
 var student = "Kikko";
 var age = 18;
-var doucheBag = "true";
+var student = false;
 ```
 
 
@@ -126,12 +129,25 @@ function sayHello() {
 
 ###If Else
 Block of code designed to perform a particular task
-
 ```javascript
 function sayHello() {
   console.log("Hello world!")
   // Returns: Hello World
 }
+```
+
+
+##jQuery Basics
+
+###Selectors
+```javascript
+$("p")      // Finds the p element
+$(".box")   // Finds element(s) with a box class
+$("#shaq")  // Finds element with the shaq id name
+
+```
+###Events
+```javascript
 ```
 
 
