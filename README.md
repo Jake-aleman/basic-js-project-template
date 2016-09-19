@@ -6,6 +6,7 @@ CCS Project Template
   - [Strings](#strings)
   - [Booleans](#booleans)
   - [Integers](#integers)
+- [Variables](#variables)
 - [Functions](#functions)
 
 ##Data Types
@@ -13,6 +14,7 @@ CCS Project Template
 A data type defines the structure of data that will be stored in an object (variable) of that type. A variable is a named instance of that data type. JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
 
 ###Strings
+Used for storing and manipulating text
 ```javascript
 "Kikko"
 "Kikko Paradela"
@@ -20,20 +22,27 @@ A data type defines the structure of data that will be stored in an object (vari
 ```
 
 ###Booleans
+Use for representing one of two values: true or false
 ```javascript
 10 > 9
 10 === 10
 ```
 
 ###Integers
+Used for storing numbers
 ```javascript
 10
 3.14
 4*10
 ```
 
-
-
+##Variables
+Containers for storing data values
+```javascript
+var student = "Kikko";
+var age = 18;
+var doucheBag = "true";
+```
 
 ##Functions
 ```javascript
