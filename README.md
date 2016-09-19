@@ -10,13 +10,27 @@ CCS Project Template
 
 ##Date Types
 
-JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
+A data type defines the structure of data that will be stored in an object (variable) of that type. A variable is a named instance of that data type. JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
 
 ###Strings
 ```javascript
-var student = "Kikko";
+"Kikko"
+"Kikko Paradela"
+"Hello" + "world"
 ```
 
+###Booleans
+```javascript
+10 > 9
+10 === 10
+```
+
+###Integers
+```javascript
+10
+3.14
+4*10
+```
 
 
 
