@@ -76,6 +76,26 @@ var sayHello = function() {
 sayHello(); // Prints: Hello World!
 ```
 
+###Arguments
+```javascript
+function sayHello(student) {
+  console.log("Hello " + student)
+}
+
+sayHello("Kikko"); // Prints: Hello Kikko
+sayHello("Shaq"); // Prints: Hello Shaq
+```
+
+You can also use multiple arguments
+```javascript
+function sayHello(student, yourName) {
+  console.log("Hello " + student + "! My name is " + yourName + ".");
+}
+
+sayHello("Shaq", "Kikko"); // Prints: Hello Shaq! My name is Kikko
+```
+
+
 
 
 ##Conditions
