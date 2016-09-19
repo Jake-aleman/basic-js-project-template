@@ -17,6 +17,7 @@ CCS Project Template
 ##Data Types
 A data type defines the structure of data that will be stored in an object (variable) of that type. A variable is a named instance of that data type. JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
 
+
 ###Strings
 Used for storing and manipulating text
 ```javascript
@@ -31,6 +32,7 @@ Used for representing one of two values: true or false
 10 > 9
 10 === 10
 ```
+
 
 ###Integers
 Used for storing numbers
@@ -48,22 +50,26 @@ var age = 18;
 var doucheBag = "true";
 ```
 
+
 ##Functions
 Block of code designed to perform a particular task
 ```javascript
 function sayHello() {
   console.log("Hello world!")
-  // Returns: Hello World
 }
+
+sayHello(); // Returns: Hello World
 ```
+
 
 ##Conditions
 Block of code designed to perform a particular task
 
+
 ###Comparison and Logical Operators
 Block of code designed to perform a particular task
 
-| Option | Description |
+| Operantor | Description |
 | --- | :--- |
 | == | equal to |
 | === | equal value and equal type |
@@ -75,7 +81,6 @@ Block of code designed to perform a particular task
 | <= | less than or equal to |
 
 
-
 ###Switch
 Block of code designed to perform a particular task
 ```javascript
@@ -84,6 +89,7 @@ function sayHello() {
   // Returns: Hello World
 }
 ```
+
 
 ###If Else
 Block of code designed to perform a particular task
@@ -94,8 +100,6 @@ function sayHello() {
   // Returns: Hello World
 }
 ```
-
-
 
 
 ###Load your JS file(s) into your HTML
