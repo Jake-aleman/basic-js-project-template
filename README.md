@@ -22,7 +22,7 @@ Used for storing and manipulating text
 ```
 
 ###Booleans
-Use for representing one of two values: true or false
+Used for representing one of two values: true or false
 ```javascript
 10 > 9
 10 === 10
@@ -45,9 +45,11 @@ var doucheBag = "true";
 ```
 
 ##Functions
+Block of code designed to perform a particular task
 ```javascript
 function sayHello() {
   console.log("Hello world!")
+  // Returns: Hello World
 }
 ```
 
