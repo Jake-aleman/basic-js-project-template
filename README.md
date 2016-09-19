@@ -2,7 +2,7 @@
 CCS Project Template
 
 #Topics
-- [Data Types](#variables)
+- [Data Types](#dataTypes)
   - [Strings](#strings)
   - [Booleans](#booleans)
   - [Integers](#integers)
