@@ -8,6 +8,8 @@ CCS Project Template
   - [Integers](#integers)
 - [Variables](#variables)
 - [Functions](#functions)
+  - [Function Statement](#function-statement)
+  - [Function Expression](#function-expression)
 - [Conditions](#conditions)
   - [Comparison and Logical Operators](comparison-and-logical-operators)
   - [If Else Statements](#if-else)
@@ -52,14 +54,28 @@ var doucheBag = "true";
 
 
 ##Functions
-Block of code designed to perform a particular task
+Block of code designed to perform a particular task. There are two ways we can create a function:
+
+###Function Statement
 ```javascript
+// Define the function
 function sayHello() {
   console.log("Hello world!")
 }
 
-sayHello(); // Returns: Hello World
+// Call function
+sayHello(); // Prints: Hello World!
 ```
+
+###Function Expression
+```javascript
+var sayHello = function() {
+  console.log("Hello world!")
+}
+
+sayHello(); // Prints: Hello World!
+```
+
 
 
 ##Conditions
