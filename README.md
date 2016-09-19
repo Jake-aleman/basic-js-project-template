@@ -120,10 +120,38 @@ Block of code designed to perform a particular task
 ###Switch
 Block of code designed to perform a particular task
 ```javascript
-function sayHello() {
-  console.log("Hello world!")
-  // Returns: Hello World
+var student = "Shaq";
+
+switch (student) {
+    case "Kikko":
+        console.log("Student is Kikko");
+        break;
+    case "Shaq":
+        console.log("Whoa Shaq is a student");
+        break;
+    case "Kobe":
+        console.log("Kobe is a student?");
 }
+
+// Prints: Whoa Shaq is a student
+
+var currentYear = 2016;
+var exp = 2016;
+
+switch (student) {
+    case "Kikko":
+        console.log("Student is Kikko");
+        break;
+    case "Shaq":
+        console.log("Whoa Shaq is a student");
+        break;
+    case "Kobe":
+        console.log("Kobe is a student?");
+}
+
+
+
+
 ```
 
 
