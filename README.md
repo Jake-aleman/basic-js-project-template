@@ -8,7 +8,7 @@ CCS Project Template
   - [Integers](#integers)
 - [Functions](#functions)
 
-##Date Types
+##Data Types
 
 A data type defines the structure of data that will be stored in an object (variable) of that type. A variable is a named instance of that data type. JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
 
