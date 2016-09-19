@@ -1,20 +1,35 @@
 # ccs-project-template
 CCS Project Template
 
-##Table of Contents
+#Topics
+- [Data Types](#variables)
+  - [Strings](#strings)
+  - [Booleans](#booleans)
+  - [Integers](#integers)
 - [Functions](#functions)
 
-Test 
+##Date Types
+
+JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
+
+###Strings
 ```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
+var student = "Kikko";
+```
+
+
+
+
+
+##Functions
+```javascript
+function sayHello() {
+  console.log("Hello world!")
 }
 ```
 
-Load your JS file(s) into your HTML
 
+###Load your JS file(s) into your HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -25,11 +40,4 @@ Load your JS file(s) into your HTML
     <script type='text/javascript' src='scripts/script.js'></script>
   </body>
 </html>
-```
-
-###Functions:
-```javascript
-function sayHello() {
-  console.log("Hello world!")
-}
 ```
