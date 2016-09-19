@@ -9,9 +9,9 @@ CCS Project Template
 - [Variables](#variables)
 - [Functions](#functions)
 - [Conditions](#conditions)
+  - [Comparison and Logical Operators](comparison-and-logical-operators)
   - [If Else Statements](#if-else)
   - [Switch](#switch)
-  - [Comparison and Logical Operators](comparison-and-logical-operators)
 
 
 ##Data Types
@@ -56,6 +56,46 @@ function sayHello() {
   // Returns: Hello World
 }
 ```
+
+##Conditions
+Block of code designed to perform a particular task
+
+###Comparison and Logical Operators
+Block of code designed to perform a particular task
+
+| Option | Description |
+| --- | :--- |
+| == | equal to |
+| === | equal value and equal type |
+| != | not equal |
+| !== | not equal value or not equal type |
+| > | greater than |
+| < | less than |
+| >= | greater than or equal to	 |
+| <= | less than or equal to |
+
+
+
+###Switch
+Block of code designed to perform a particular task
+```javascript
+function sayHello() {
+  console.log("Hello world!")
+  // Returns: Hello World
+}
+```
+
+###If Else
+Block of code designed to perform a particular task
+
+```javascript
+function sayHello() {
+  console.log("Hello world!")
+  // Returns: Hello World
+}
+```
+
+
 
 
 ###Load your JS file(s) into your HTML
