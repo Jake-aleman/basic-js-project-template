@@ -48,7 +48,7 @@ Used for storing numbers
 ```
 
 ##Variables
-Containers for storing data values
+Containers for storing data type values
 ```javascript
 var student = "Kikko";
 var age = 18;
@@ -57,7 +57,7 @@ var student = false;
 
 
 ##Functions
-Block of code designed to perform a particular task. There are two ways we can create a function:
+Block of code designed to perform a particular task. There are two common ways we can create a function:
 
 ###Function Statement
 ```javascript
@@ -66,7 +66,7 @@ function sayHello() {
   console.log("Hello world!")
 }
 
-// Call function
+// Run function
 sayHello(); // Prints: Hello World!
 ```
 
@@ -99,13 +99,12 @@ sayHello("Shaq", "Kikko"); // Prints: Hello Shaq! My name is Kikko.
 
 
 ##Conditions
-Block of code designed to perform a particular task
-
+Conditios are used to perform different actions for different decisions.
 
 ###Comparison and Logical Operators
-Block of code designed to perform a particular task
+Comparison operators are used in logical statements to determine equality or difference between variables or values. They can be used in conditional statements to compare values and take action depending on the result.
 
-| Operantor | Description |
+| Operator | Description |
 | --- | :--- |
 | == | equal to |
 | === | equal value and equal type |
@@ -118,7 +117,8 @@ Block of code designed to perform a particular task
 
 
 ###If Else
-Block of code designed to perform a particular task
+Used to specify a block of code to be executed if a condition is true
+
 ```javascript
 var realLife = false;
 
@@ -144,7 +144,7 @@ if (student == "Kikko") {
 
 
 ###Switch
-Block of code designed to perform a particular task
+Used to perform different actions based on different conditions.
 ```javascript
 var student = "Shaq";
 
