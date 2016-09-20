@@ -117,6 +117,32 @@ Block of code designed to perform a particular task
 | <= | less than or equal to |
 
 
+###If Else
+Block of code designed to perform a particular task
+```javascript
+var realLife = false;
+
+if (realLife == true) {
+  console.log("Life is real")
+} else {
+  console.log("Don't be trippin")
+}
+
+// Prints: Don't be trippin
+```
+
+```javascript
+var student = "Kikko";
+
+if (student == "Kikko") {
+  console.log("Hello world!")
+  // Returns: Kikko is a student
+}
+```
+
+
+
+
 ###Switch
 Block of code designed to perform a particular task
 ```javascript
@@ -153,18 +179,10 @@ switch (currentYear - aniversary) {
     case "4":
         console.log("Happy 4 years!");
 }
-// Prints: Whoa Shaq is a student
+// Prints: Happy 3 years!
 ```
 
 
-###If Else
-Block of code designed to perform a particular task
-```javascript
-function sayHello() {
-  console.log("Hello world!")
-  // Returns: Hello World
-}
-```
 
 
 ##jQuery Basics
