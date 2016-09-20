@@ -134,24 +134,26 @@ switch (student) {
 }
 
 // Prints: Whoa Shaq is a student
+```
 
+```javascript
 var currentYear = 2016;
 var aniversary = 2013;
 
 switch (currentYear - aniversary) {
     case "1":
-        console.log("Student is Kikko");
+        console.log("Happy 1 year!");
         break;
     case "2":
-        console.log("Whoa Shaq is a student");
+        console.log("Happy 2 years!");
         break;
     case "3":
-        console.log("Kobe is a student?");
+        console.log("Happy 3 years!");
+        break;
+    case "4":
+        console.log("Happy 4 years!");
 }
-
-
-
-
+// Prints: Whoa Shaq is a student
 ```
 
 
