@@ -254,6 +254,7 @@ switch (currentYear - aniversary) {
     case "4":
         console.log("Happy 4 years!");
 }
+
 // Prints: Happy 3 years!
 ```
 
@@ -267,8 +268,8 @@ switch (currentYear - aniversary) {
 $("p")      // Finds the p element
 $(".box")   // Finds element(s) with a box class
 $("#shaq")  // Finds element with the shaq id name
-
 ```
+
 ###Events
 ```javascript
 ```
