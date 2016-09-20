@@ -3,10 +3,15 @@ CCS Project Template
 
 #Topics
 - [Data Types](#data-types)
-  - [Strings](#strings)
+  - [Strings](#strings  )
   - [Booleans](#booleans)
   - [Integers](#integers)
 - [Variables](#variables)
+- [Operators](#operators)
+  - [Arithmetic Operators](#arithmetic-operators)  
+  - [Assignment Operators](#assignment-operators)
+  - [String Operators](#string-operators)
+  - [Adding Strings and Numbers](#adding-strings-and-numbers) 
 - [Functions](#functions)
   - [Function Statement](#function-statement)
   - [Function Expression](#function-expression)
@@ -54,6 +59,76 @@ var student = "Kikko";
 var age = 18;
 var student = false;
 ```
+
+##Operators
+
+###Arithmetic Operators
+| Operator | Description |
+| --- | :--- |
+| + | addition |
+| - | subtraction |
+| * | multiplication |
+| / | division |
+| % | modulus |
+| ++ | increment |
+| -- | decrement |
+
+```javascript
+var a = 3;
+var b = 5;
+var c = a + b;
+console.log(c) // Prints: 8
+
+var d = 10;
+d++;
+console.log(d) // Prints: 11
+``` 
+
+
+###Assignment Operators
+| Operator | Example |
+| --- | :--- |
+| + | x = y |
+| += | x = x + y |
+| -= | x = x - y |
+| *= | x = x * y |
+| /= | x = x / y |
+| %= | x = x % y |
+
+```javascript
+var a = 10;
+a += 5; //10 + 5 = 15
+
+console.log(a) // Prints: 15
+``` 
+
+###String Operators
+```javascript
+var firstName = "Kikko";
+var lastName = "Paradela";
+var completeName = firstName + " " + lastName;
+
+console.log(completeName) // Prints: Kikko Paradela
+
+
+var greeting = "Hi ";
+greeting += "Shaq";
+
+console.log(greeting) // Prints: Hi Shaq
+``` 
+
+
+###Adding Strings and Numbers
+```javascript
+x = 10 + 10;
+y = "10" + 10;
+z = "hi" + 10;
+
+// Output: 
+// 20
+// 1010
+// hi10
+``` 
 
 
 ##Functions
