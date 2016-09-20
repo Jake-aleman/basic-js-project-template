@@ -136,16 +136,16 @@ switch (student) {
 // Prints: Whoa Shaq is a student
 
 var currentYear = 2016;
-var exp = 2016;
+var aniversary = 2013;
 
-switch (student) {
-    case "Kikko":
+switch (currentYear - aniversary) {
+    case "1":
         console.log("Student is Kikko");
         break;
-    case "Shaq":
+    case "2":
         console.log("Whoa Shaq is a student");
         break;
-    case "Kobe":
+    case "3":
         console.log("Kobe is a student?");
 }
 
