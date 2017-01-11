@@ -1,5 +1,5 @@
-# ccs-project-template
-CCS Project Template
+# ccs-js-project-template
+CCS Project JS + HTML Template
 
 #Topics
 - [Data Types](#data-types)
