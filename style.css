@@ -1,12 +1,28 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+box-sizing: inherit;
 }
 
 body {
- 	color: blue; 
- 	margin: 0;
+margin: 0;
+}
+
+/* Clear Float */
+.cf:before,
+.cf:after {
+content: " ";
+/* 1 */
+display: table;
+/* 2 */
+}
+
+.cf:after {
+clear: both;
+}
+
+.cf {
+*zoom: 1;
 }
