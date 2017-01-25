@@ -4,9 +4,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*,*:before,*:after {
   box-sizing: inherit;
 }
 
@@ -16,8 +14,7 @@ body {
 
 /* Clear Float */
 
-.cf:before,
-.cf:after {
+.cf:before,.cf:after {
   content: " ";
   /* 1 */
   display: table;
