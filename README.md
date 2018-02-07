@@ -24,11 +24,11 @@ CCS Project JS + HTML Template
   - [Events](#events)
 
 
-##Data Types
+## Data Types
 A data type defines the structure of data that will be stored in an object (variable) of that type. A variable is a named instance of that data type. JS variables can hold many data types such as numbers, strings, arrays, objects and more. 
 
 
-###Strings
+### Strings
 Used for storing and manipulating text
 ```javascript
 "Kikko"
@@ -36,7 +36,7 @@ Used for storing and manipulating text
 "Hello" + "world"
 ```
 
-###Booleans
+### Booleans
 Used for representing one of two values: true or false
 ```javascript
 10 > 9
@@ -44,7 +44,7 @@ Used for representing one of two values: true or false
 ```
 
 
-###Integers
+### Integers
 Used for storing numbers
 ```javascript
 10
@@ -52,7 +52,7 @@ Used for storing numbers
 4*10
 ```
 
-##Variables
+## Variables
 Containers for storing data type values
 ```javascript
 var student = "Kikko";
@@ -60,7 +60,7 @@ var age = 18;
 var student = false;
 ```
 
-##Operators
+## Operators
 
 ###Arithmetic Operators
 | Operator | Description |
@@ -85,7 +85,7 @@ console.log(d) // Prints: 11
 ``` 
 
 
-###Assignment Operators
+### Assignment Operators
 | Operator | Example |
 | --- | :--- |
 | + | x = y |
@@ -102,7 +102,7 @@ a += 5; //10 + 5 = 15
 console.log(a) // Prints: 15
 ``` 
 
-###String Operators
+### String Operators
 ```javascript
 var firstName = "Kikko";
 var lastName = "Paradela";
@@ -118,7 +118,7 @@ console.log(greeting) // Prints: Hi Shaq
 ``` 
 
 
-###Adding Strings and Numbers
+### Adding Strings and Numbers
 ```javascript
 x = 10 + 10;
 y = "10" + 10;
@@ -131,7 +131,7 @@ z = "hi" + 10;
 ``` 
 
 
-##Functions
+## Functions
 Block of code designed to perform a particular task. There are two common ways we can create a function:
 
 ###Function Statement
@@ -145,7 +145,7 @@ function sayHello() {
 sayHello(); // Prints: Hello World!
 ```
 
-###Function Expression
+### Function Expression
 ```javascript
 var sayHello = function() {
   console.log("Hello world!")
@@ -154,7 +154,7 @@ var sayHello = function() {
 sayHello(); // Prints: Hello World!
 ```
 
-###Arguments
+### Arguments
 ```javascript
 function sayHello(student) {
   console.log("Hello " + student)
@@ -173,7 +173,7 @@ sayHello("Shaq", "Kikko"); // Prints: Hello Shaq! My name is Kikko.
 ```
 
 
-##Conditions
+## Conditions
 Conditios are used to perform different actions for different decisions.
 
 ###Comparison and Logical Operators
@@ -191,7 +191,7 @@ Comparison operators are used in logical statements to determine equality or dif
 | <= | less than or equal to |
 
 
-###If Else
+### If Else
 Used to specify a block of code to be executed if a condition is true
 
 ```javascript
@@ -218,7 +218,7 @@ if (student == "Kikko") {
 
 
 
-###Switch
+### Switch
 Used to perform different actions based on different conditions.
 ```javascript
 var student = "Shaq";
@@ -261,21 +261,21 @@ switch (currentYear - aniversary) {
 
 
 
-##jQuery Basics
+## jQuery Basics
 
-###Selectors
+### Selectors
 ```javascript
 $("p")      // Finds the p element
 $(".box")   // Finds element(s) with a box class
 $("#shaq")  // Finds element with the shaq id name
 ```
 
-###Events
+### Events
 ```javascript
 ```
 
 
-###Load your JS file(s) into your HTML
+### Load your JS file(s) into your HTML
 ```html
 <!DOCTYPE html>
 <html>
