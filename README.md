@@ -1,7 +1,7 @@
 # ccs-js-project-template
 CCS Project JS + HTML Template
 
-#Topics
+# Topics
 - [Data Types](#data-types)
   - [Strings](#strings  )
   - [Booleans](#booleans)
@@ -62,7 +62,7 @@ var student = false;
 
 ## Operators
 
-###Arithmetic Operators
+### Arithmetic Operators
 | Operator | Description |
 | --- | :--- |
 | + | addition |
