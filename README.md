@@ -134,7 +134,7 @@ z = "hi" + 10;
 ## Functions
 Block of code designed to perform a particular task. There are two common ways we can create a function:
 
-###Function Statement
+### Function Statement
 ```javascript
 // Define the function
 function sayHello() {
@@ -174,9 +174,9 @@ sayHello("Shaq", "Kikko"); // Prints: Hello Shaq! My name is Kikko.
 
 
 ## Conditions
-Conditios are used to perform different actions for different decisions.
+Conditions are used to perform different actions for different decisions.
 
-###Comparison and Logical Operators
+### Comparison and Logical Operators
 Comparison operators are used in logical statements to determine equality or difference between variables or values. They can be used in conditional statements to compare values and take action depending on the result.
 
 | Operator | Description |
