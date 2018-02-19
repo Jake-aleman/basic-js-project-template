@@ -16,7 +16,7 @@ CCS Project JS + HTML Template
   - [Function Statement](#function-statement)
   - [Function Expression](#function-expression)
 - [Conditions](#conditions)
-  - [Comparison and Logical Operators](comparison-and-logical-operators)
+  - [Comparison and Logical Operators](#comparison-and-logical-operators)
   - [If Else Statements](#if-else)
   - [Switch](#switch)
 - [jQuery Basics](#jquery-basics)
