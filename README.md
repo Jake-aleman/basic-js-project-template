@@ -131,6 +131,24 @@ z = "hi" + 10;
 ``` 
 
 
+## Arrays
+Used to store multiple values in a single variable.
+```javascript
+var students = ["Emily","serena","Jake","Ray","Asha"];
+
+students[0];
+students[1];
+students[4];
+
+// Output: 
+// students[0] = "Emily" 
+Zero-based numbering or index origin = 0 is a way of numbering in which the initial element of a sequence is assigned the index 0, rather than the index 1 as is typical in everyday non-mathematical/non-programming circumstances.
+// Serena
+// Asha
+
+``` 
+
+
 ## Functions
 Block of code designed to perform a particular task. There are two common ways we can create a function:
 
