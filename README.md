@@ -141,12 +141,12 @@ students[1];
 students[4];
 
 // Output: 
-// students[0] = "Emily" 
-Zero-based numbering or index origin = 0 is a way of numbering in which the initial element of a sequence is assigned the index 0, rather than the index 1 as is typical in everyday non-mathematical/non-programming circumstances.
+// Emily – Zero-based numbering or index origin = 0 is a way of numbering in which the initial element of a sequence is assigned the index 0, rather than the index 1 as is typical in everyday non-mathematical/non-programming circumstances.
 // Serena
 // Asha
 
 ``` 
+
 
 
 ## Functions
